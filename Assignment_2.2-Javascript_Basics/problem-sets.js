@@ -118,3 +118,21 @@ received a different 'prize' in an alert. After declaring the function, try runn
 different options.
 */
 
+
+var priceIsRight = function(doorChoice) {
+	if (doorChoice == 1) {
+		alert("I just smacked you in the face!")
+	} else if (doorChoice == 2) {
+		alert("You just gave me 100 bucks, thanks!")
+	} else if (doorChoice == 3) {
+		alert("Here is you're weight in GOLD!!")
+	} else {
+		alert("Listen, I gave you 3 simple choices FOOL!")
+	}
+}
+var doorChoice = prompt("Hey, what door do you want to go through: 1, 2, or 3?");
+var choiceNum = Number(doorChoice);
+var alertMessage = priceIsRight(doorChoice);
+
+alert(alertMessage);
+
