@@ -10,4 +10,7 @@ var fizzBuzz = function(num) {
 		console.log("BLAH!")
 	}
 }
-fizzBuzz(32);
+fizzBuzz(30); //-> returns FizzBuzz
+fizzBuzz(9); //-> returns Fizz
+fizzBuzz(10); //-> returns Buzz
+fizzBuzz(32); //-> returns Blah!
